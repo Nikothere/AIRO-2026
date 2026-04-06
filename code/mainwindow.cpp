@@ -27,11 +27,6 @@ MainWindow::MainWindow(QWidget *parent)
     connect(ui->stop, &QPushButton::clicked, this, [=](){
         qDebug() << "stop";
         ui->plainTextEdit->setPlainText("stop"); });
-
-
-
-
-
 };
 
 MainWindow::~MainWindow()
